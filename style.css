@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Mohave', sans-serif;
+}
+.contact-link{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.contact-link img{
+    width: 55px;
+    margin-right: 20px;
+}
+header{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #FFFFFFBB;
+    position: sticky;
+    top: 0;
+}
+header h2{
+    margin-left: 50px;
+    color: #010101;
+    font-weight: bold;
+}
+header a{
+    text-decoration: none;
+    color: #58565f;
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+li{
+    display: inline-block;
+    margin-right: 30px;
+}
+li:hover{
+    transition: 0.1s;
+    border-bottom: 1px solid black;
+}
+section{
+    background-image: url("./assets/background-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:30px;
+    height: 550px;
+}
+section h3 , section h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: #181319b4;
+}
+#title-furniture{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #373737;
+    font-weight: bold;
+}
+.furniture{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.furn-1{
+    background-color: #FFFFFFBB;
+    border: 1px solid #FFFFFFBB;
+    box-shadow: 2px 2px 20px 2px #000000;
+    border-radius: 5px;
+    padding: 10px;
+}
+.furn-1 img:hover{
+    transition: 0.2s;
+    width: 260px;
+}
+.furn-1 p{
+    margin-top: 10px;
+}
+
+
+.furniture img{
+    width: 250px;
+}
+.furn-2{
+    background-color: #FFFFFFBB;
+    border: 1px solid #FFFFFFBB;
+    box-shadow: 2px 2px 20px 2px #000000;
+    border-radius: 5px;
+    padding: 10px;
+}
+.furn-2 img:hover{
+    transition: 0.2s;
+    width: 260px;
+}
+.furn-2 p{
+    margin-top: 10px;
+}
+.furniture-2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.furniture-2 img{
+    width: 250px;
+
+}
+.input-buy{
+    margin-top: 10px;
+    border: none;
+    width: 80%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #365653;
+    color: white;
+    border-radius: 5px;
+}
+.input-buy:hover{
+    transition: 0.2s;
+    background-color: white;
+    color: black;
+    border:1px solid black;
+    border-radius: 5px;
+
+}
+#sellers{
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+    box-shadow: 2px 2px 20px 2px #000000;
+    border: #FFFFFFBB 1px solid;
+    margin-bottom: 200px;
+}
+#sellers h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.seller-1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+}
+.sel{
+    width: 300px;
+    background-color: #385b59;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sel a{
+    text-decoration: none;
+    color: black;
+}
+
+.sel:hover{
+    transition: 0.2s;
+    color: black;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px#385b59 solid;
+} 
+.seller-2{
+    display: flex;
+    justify-content: space-around;
+}
+iframe{
+    margin-left: 430px;
+    margin-bottom: 50px;
+}
+#iframe{
+    background-color: #173432;
+    padding: 10px;
+    color: #FFFFFFBB;
+}
+.title-maps{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    background-color: #173432;
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFFBB;
+}
+footer p{
+    display: inline-block;
+    margin-left: 20px;
+    color: #FFFFFFBB;
+}
+
+
+
+
+@media screen and (max-width:736px){
+    header{
+        position: relative;
+        float: none;
+        display: inline-block;
+        text-align: center;
+    }
+    header h2{
+        margin-right: 40px;
+    }
+    header ul{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    header li{
+        padding: 5px;
+    }
+    section{
+        height: 400px;
+    }
+    section h3 , section h2{
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .furniture img{
+        width: 100px;
+    }
+    .furn-1{
+        padding: 5px;
+        margin-left: 5px;
+    }
+    .furniture img:hover{
+        width: 100px;
+    }
+    .furniture-2 img{
+        width: 100px;
+    }
+    .furniture-2 img:hover{
+        width: 100px;
+    }
+    .furn-2{
+        padding: 5px;
+    }
+    #sellers{
+        width: 300px;
+    }
+    .sel{
+        padding: 10px;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    iframe{
+        width: 350px;
+        height: 300px;
+        margin-left: -1px;
+    }
+    footer{
+        padding: 10px;
+    }
+    footer p{
+        padding: 10px;
+    }
+    .contact-link{
+        display: none;
+    }
+}

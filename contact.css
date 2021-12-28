@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mohave', sans-serif;
+    background-image: url("./bbb.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact{
+    background-color: #2c4c49;
+    padding: 100px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.title{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.paragraph{
+    margin-bottom: 20px;
+    color: white;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.contact p , .contact h1{
+    margin-bottom:10px   ;
+}
+.sellers{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.seller{
+    width: 300px;
+    background-color: #385b59;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.seller:hover{
+    transition: 0.2s;
+    color: black;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px#385b59 solid;
+}
